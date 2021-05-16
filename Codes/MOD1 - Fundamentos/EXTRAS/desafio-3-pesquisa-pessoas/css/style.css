@@ -1,0 +1,51 @@
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flex-align-top{
+    align-items: flex-start;
+}
+
+.flex-center{
+    margin-top: 50px;
+    justify-content: center;
+}
+.input {
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.panel {
+    width: 50%;
+    border: 4px solid brown;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.avatar{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%; 
+   margin-top: 10px;
+   margin-right: 15px;
+}
+
+
+.hidden {
+    display: none;
+}

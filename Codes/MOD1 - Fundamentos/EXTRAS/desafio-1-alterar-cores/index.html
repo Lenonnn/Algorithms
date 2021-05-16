@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+    
+    <div class="contorno">
+
+    
+    <div class="r">
+        <h2>( R ) - Vermelho + : </h2>
+            <input  id="red" 
+                    class="rUm" 
+                    type="range" 
+                    min="0" 
+                    max="255" 
+                    oninput="r1.value=value"
+                    onchange="onHandleBoxColor()" 
+                    value="0"
+                    >
+            <input  id="r1" 
+                    class="inputValue" 
+                    type="text" 
+                    value="0" 
+                    disabled
+                    >
+    </div>
+    
+    
+    
+    <div class="g">
+        <h2>( G ) - Verde + : </h2>
+            <input  id="green" 
+                    class="rDois" 
+                    type="range" 
+                    min="0" 
+                    max="255" 
+                    oninput="r2.value=value"
+                    onchange="onHandleBoxColor()" 
+                    value="0">
+            <input  id="r2" 
+                    class="inputValue" 
+                    type="text" 
+                    value="0" 
+                    readonly="true">
+    </div>
+    
+
+    
+    <div class="b">
+        <h2>(B) - Azul + :</h2>
+            <input  id="blue" 
+                    class="rTres" 
+                    type="range" 
+                    min="0" 
+                    max="255" 
+                    oninput="r3.value=value"
+                    onchange="onHandleBoxColor()" 
+                    value="0">
+            <input  id="r3" 
+                    class="inputValue" 
+                    type="text" 
+                    value="0" 
+                    readonly="true">
+    </div>
+
+
+    
+    <div id="quadro" class="box">
+
+    </div>
+
+</div>
+    
+    <script src="./js/index.js">
+
+    </script>
+
+</body>
+
+</html>

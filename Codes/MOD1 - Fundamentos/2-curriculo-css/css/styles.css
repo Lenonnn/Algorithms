@@ -1,0 +1,62 @@
+/* Resetar css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+  
+html{
+  /*Cada 1rem será considerado 10px*/
+  font-size: 62.5%;
+}
+  
+body {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+li{
+  font-size: 2rem;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(30, 69, 139);
+}
+
+.dados-pessoais {
+
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dados{
+  margin-left: 5rem;
+  list-style-type: disc;
+}
+p{
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+table{
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+table,
+tr,
+td,
+th{
+
+  padding: 0.5rem;
+  border: 1px solid gray;
+}
+
+th{
+  background-color: #ddd;
+}
+
+  

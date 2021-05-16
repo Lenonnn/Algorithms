@@ -1,0 +1,89 @@
+{
+  "nextId": 12,
+  "lancamentos": [
+    {
+      "id": 1,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 1,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 1,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 1,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 2,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 3,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 4,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 5,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 6,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 7,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 8,
+      "valor": 200,
+      "categoria": "Supermercado",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 9,
+      "valor": -200,
+      "categoria": "Supermercado",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 10,
+      "valor": 1200,
+      "categoria": "Salário",
+      "data": "16/10/2020"
+    },
+    {
+      "id": 11,
+      "valor": -200,
+      "categoria": "Supermercado",
+      "data": "16/10/2020"
+    }
+  ]
+}

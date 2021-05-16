@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+  
+html{
+    /*Cada 1rem será considerado 10px*/
+    font-size: 62.5%;
+}
+  
+body {
+    font-size: 1.6rem;
+}
+.contorno{
+    background-color: honeydew;
+    margin-top: 5rem;
+    margin-left: 30rem;
+    width: 40%;
+    height: 80vh;
+    border: solid green 1px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(172, 49, 49);
+    margin-left: 25rem;
+    margin-top: 4rem;
+
+}
+
+.r{
+    margin-top: 5rem;
+    width: 80%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+}
+.g{
+    width: 80%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+}
+.b{
+    width: 80%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.inputValue {
+    background-color: rgb(197, 197, 197);
+    max-width: 8rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+}
